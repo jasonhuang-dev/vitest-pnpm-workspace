@@ -1,0 +1,9 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./utils/helper": "./utils/helper.js"
+  }
+}
