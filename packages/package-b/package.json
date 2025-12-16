@@ -1,0 +1,8 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "package-a": "workspace:*"
+  }
+}
