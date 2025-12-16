@@ -53,11 +53,3 @@ The test should pass with the mocked value `'mocked value'`.
 ## Actual Output
 
 The test fails because it receives the original value `'original value from helper'` instead of the mocked value.
-
-## Key Points
-
-- No TypeScript/tsconfig files (intentional - testing pure JS scenario)
-- Uses pnpm workspace with deep imports
-- Global mock defined in root setupFiles
-- Mock targets a workspace deep import path (`package-a/utils/helper`)
-- Test in different workspace package imports the deep path
